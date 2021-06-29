@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "808070851492",
+    "firebase_url": "https://mjstagram-53848.firebaseio.com",
+    "project_id": "mjstagram-53848",
+    "storage_bucket": "mjstagram-53848.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808070851492:android:8509090d4bb9fa90ff6f31",
+        "android_client_info": {
+          "package_name": "com.ktw.mjstagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808070851492-b72sp3q4h0su12lps3njnaajl7o0ob74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByENCCEF1HKS9YDgkt5uGm7iUqyf2sxgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808070851492-b72sp3q4h0su12lps3njnaajl7o0ob74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808070851492:android:02abbab7ea1cc960ff6f31",
+        "android_client_info": {
+          "package_name": "com.yjr.meeting"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808070851492-b72sp3q4h0su12lps3njnaajl7o0ob74.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByENCCEF1HKS9YDgkt5uGm7iUqyf2sxgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808070851492-b72sp3q4h0su12lps3njnaajl7o0ob74.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

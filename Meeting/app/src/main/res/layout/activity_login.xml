@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mac1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="로그인"
+            android:textColor="#575353"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/loading_pb2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="30dp"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout2">
+
+        <EditText
+            android:id="@+id/email_et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="이메일을 입력해주세요"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/password_et2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="패스워드를 입력해주세요"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_login_btn"
+            android:text="로그인"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="120dp"
+                android:layout_height="4px"
+                android:layout_gravity="center"
+                android:background="#ffffff"></View>
+
+            <TextView
+                android:id="@+id/loginhow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:text="이미 회원이신가요?"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="120dp"
+                android:layout_height="4px"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="#ffffff"></View>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/move_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_login_btn"
+            android:text="회원 가입"
+            android:textColor="#FFFFFF" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:paddingRight="10dp"
+                android:text="비밀번호가 기억나지 않는다면?"
+                android:textColor="#FFFFFF"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/find_password_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:clickable="true"
+                android:text="비밀번호 찾기"
+                android:textColor="#7CCF67"
+                android:textColorHighlight="#2D44CC"
+                android:textColorLink="#51CD74"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

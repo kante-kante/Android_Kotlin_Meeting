@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="@drawable/custom_login_btn"
+    android:elevation="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/chatroom_iv"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/baseline_star_outline_black_18"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chatroom_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:text="ChatTitle"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/chatroom_iv"
+        app:layout_constraintTop_toTopOf="@+id/chatroom_iv" />
+
+    <TextView
+        android:id="@+id/roomcontent_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="15"
+        android:paddingBottom="3dp"
+        android:text="ChatContent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chatroom_iv"
+        app:layout_constraintTop_toBottomOf="@+id/chatroom_tv"
+        app:layout_constraintVertical_bias="0.823" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
